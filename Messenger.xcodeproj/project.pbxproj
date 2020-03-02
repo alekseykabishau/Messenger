@@ -19,6 +19,7 @@
 		5B068038240B65FA00E68B9D /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B068037240B65FA00E68B9D /* UIImageView+Ext.swift */; };
 		5B493AEF240C1A87006F123B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B493AEE240C1A87006F123B /* SignUpViewController.swift */; };
 		5B493AF1240C1F4B006F123B /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B493AF0240C1F4B006F123B /* OneLineTextField.swift */; };
+		5B493AF3240C5FB4006F123B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B493AF2240C5FB4006F123B /* LoginViewController.swift */; };
 		5BAF179F240B745B00CE5E08 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF179E240B745B00CE5E08 /* ButtonFormView.swift */; };
 		5BAF17A1240B78CE00CE5E08 /* StackView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF17A0240B78CE00CE5E08 /* StackView+Ext.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		5B068037240B65FA00E68B9D /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
 		5B493AEE240C1A87006F123B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5B493AF0240C1F4B006F123B /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
+		5B493AF2240C5FB4006F123B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5BAF179E240B745B00CE5E08 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
 		5BAF17A0240B78CE00CE5E08 /* StackView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 				5B06801D240B3E1200E68B9D /* SceneDelegate.swift */,
 				5B06801F240B3E1200E68B9D /* AuthViewController.swift */,
 				5B493AEE240C1A87006F123B /* SignUpViewController.swift */,
+				5B493AF2240C5FB4006F123B /* LoginViewController.swift */,
 				5B068024240B3E1500E68B9D /* Assets.xcassets */,
 				5B068026240B3E1500E68B9D /* LaunchScreen.storyboard */,
 				5B068029240B3E1500E68B9D /* Info.plist */,
@@ -188,6 +191,7 @@
 				5B068034240B621700E68B9D /* UIColor+Ext.swift in Sources */,
 				5B068030240B5E8600E68B9D /* UIButton+Ext.swift in Sources */,
 				5B068032240B60CA00E68B9D /* UIFont+Ext.swift in Sources */,
+				5B493AF3240C5FB4006F123B /* LoginViewController.swift in Sources */,
 				5B068036240B64F600E68B9D /* UILabel+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
