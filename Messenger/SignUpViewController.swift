@@ -21,14 +21,16 @@ class SignUpViewController: UIViewController {
     let confirmPasswordTextField = OneLineTextField(textFieldFont: UIFont.avenir20())
     
     let signUpButton = UIButton(title: "Sign Up", titleColor: .white, backgroundColor: .buttonDark(), font: UIFont.avenir20(), isShadow: false, cornerRadius: 4)
-    let loginButton = UIButton()
+    let loginButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("Login", for: .normal)
+        button.setTitleColor(.buttonRed(), for: .normal)
+        button.titleLabel?.font = UIFont.avenir20()
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        loginButton.setTitle("Login", for: .normal)
-        loginButton.setTitleColor(.buttonRed(), for: .normal)
-        loginButton.titleLabel?.font = UIFont.avenir20()
         setupConstraints()
     }
     
