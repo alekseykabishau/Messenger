@@ -74,15 +74,10 @@
 		5B06801A240B3E1200E68B9D /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
-				5B06801B240B3E1200E68B9D /* AppDelegate.swift */,
-				5B06801D240B3E1200E68B9D /* SceneDelegate.swift */,
-				5B06801F240B3E1200E68B9D /* AuthViewController.swift */,
-				5B493AEE240C1A87006F123B /* SignUpViewController.swift */,
-				5B493AF2240C5FB4006F123B /* LoginViewController.swift */,
-				5B068024240B3E1500E68B9D /* Assets.xcassets */,
-				5B068026240B3E1500E68B9D /* LaunchScreen.storyboard */,
-				5B068029240B3E1500E68B9D /* Info.plist */,
+				5B197B8A2442B1A600B1859A /* Model */,
+				5B197B892442B18800B1859A /* Screens */,
 				5B06803A240B72A900E68B9D /* Extensions */,
+				5B197B882442B0D400B1859A /* Support */,
 			);
 			path = Messenger;
 			sourceTree = "<group>";
@@ -108,6 +103,35 @@
 				5B068039240B729E00E68B9D /* UIKit */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5B197B882442B0D400B1859A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5B06801B240B3E1200E68B9D /* AppDelegate.swift */,
+				5B06801D240B3E1200E68B9D /* SceneDelegate.swift */,
+				5B068024240B3E1500E68B9D /* Assets.xcassets */,
+				5B068026240B3E1500E68B9D /* LaunchScreen.storyboard */,
+				5B068029240B3E1500E68B9D /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		5B197B892442B18800B1859A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5B06801F240B3E1200E68B9D /* AuthViewController.swift */,
+				5B493AEE240C1A87006F123B /* SignUpViewController.swift */,
+				5B493AF2240C5FB4006F123B /* LoginViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5B197B8A2442B1A600B1859A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,7 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VGW2M4R8BY;
-				INFOPLIST_FILE = Messenger/Info.plist;
+				INFOPLIST_FILE = Messenger/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,7 +372,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VGW2M4R8BY;
-				INFOPLIST_FILE = Messenger/Info.plist;
+				INFOPLIST_FILE = Messenger/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

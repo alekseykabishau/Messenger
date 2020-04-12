@@ -71,25 +71,3 @@ class LoginViewController: UIViewController {
         ])
     }
 }
-
-import SwiftUI
-
-struct LoginVCProvider: PreviewProvider {
-    
-    static var previews: some View {
-        ContainerView().edgesIgnoringSafeArea(.all)
-    }
-    
-    struct ContainerView: UIViewControllerRepresentable {
-        
-        let viewController = LoginViewController()
-        
-        func makeUIViewController(context: UIViewControllerRepresentableContext<LoginVCProvider.ContainerView>) -> LoginViewController {
-            return viewController
-        }
-        
-        func updateUIViewController(_ uiViewController: LoginVCProvider.ContainerView.UIViewControllerType, context: UIViewControllerRepresentableContext<LoginVCProvider.ContainerView>) {
-            
-        }
-    }
-}
