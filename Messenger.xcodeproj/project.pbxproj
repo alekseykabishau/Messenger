@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B06801C240B3E1200E68B9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06801B240B3E1200E68B9D /* AppDelegate.swift */; };
 		5B06801E240B3E1200E68B9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06801D240B3E1200E68B9D /* SceneDelegate.swift */; };
-		5B068020240B3E1200E68B9D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06801F240B3E1200E68B9D /* AuthViewController.swift */; };
+		5B068020240B3E1200E68B9D /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06801F240B3E1200E68B9D /* AuthVC.swift */; };
 		5B068025240B3E1500E68B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B068024240B3E1500E68B9D /* Assets.xcassets */; };
 		5B068028240B3E1500E68B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B068026240B3E1500E68B9D /* LaunchScreen.storyboard */; };
 		5B068030240B5E8600E68B9D /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06802F240B5E8600E68B9D /* UIButton+Ext.swift */; };
@@ -17,9 +17,9 @@
 		5B068034240B621700E68B9D /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B068033240B621700E68B9D /* UIColor+Ext.swift */; };
 		5B068036240B64F600E68B9D /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B068035240B64F600E68B9D /* UILabel+Ext.swift */; };
 		5B068038240B65FA00E68B9D /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B068037240B65FA00E68B9D /* UIImageView+Ext.swift */; };
-		5B493AEF240C1A87006F123B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B493AEE240C1A87006F123B /* SignUpViewController.swift */; };
+		5B493AEF240C1A87006F123B /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B493AEE240C1A87006F123B /* SignUpVC.swift */; };
 		5B493AF1240C1F4B006F123B /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B493AF0240C1F4B006F123B /* OneLineTextField.swift */; };
-		5B493AF3240C5FB4006F123B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B493AF2240C5FB4006F123B /* LoginViewController.swift */; };
+		5B493AF3240C5FB4006F123B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B493AF2240C5FB4006F123B /* LoginVC.swift */; };
 		5BAF179F240B745B00CE5E08 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF179E240B745B00CE5E08 /* ButtonFormView.swift */; };
 		5BAF17A1240B78CE00CE5E08 /* StackView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF17A0240B78CE00CE5E08 /* StackView+Ext.swift */; };
 /* End PBXBuildFile section */
@@ -28,7 +28,7 @@
 		5B068018240B3E1200E68B9D /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B06801B240B3E1200E68B9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B06801D240B3E1200E68B9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B06801F240B3E1200E68B9D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		5B06801F240B3E1200E68B9D /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		5B068024240B3E1500E68B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B068027240B3E1500E68B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B068029240B3E1500E68B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,9 +37,9 @@
 		5B068033240B621700E68B9D /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		5B068035240B64F600E68B9D /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
 		5B068037240B65FA00E68B9D /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
-		5B493AEE240C1A87006F123B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5B493AEE240C1A87006F123B /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		5B493AF0240C1F4B006F123B /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
-		5B493AF2240C5FB4006F123B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5B493AF2240C5FB4006F123B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		5BAF179E240B745B00CE5E08 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
 		5BAF17A0240B78CE00CE5E08 /* StackView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,9 +120,9 @@
 		5B197B892442B18800B1859A /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				5B06801F240B3E1200E68B9D /* AuthViewController.swift */,
-				5B493AEE240C1A87006F123B /* SignUpViewController.swift */,
-				5B493AF2240C5FB4006F123B /* LoginViewController.swift */,
+				5B06801F240B3E1200E68B9D /* AuthVC.swift */,
+				5B493AEE240C1A87006F123B /* SignUpVC.swift */,
+				5B493AF2240C5FB4006F123B /* LoginVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -205,17 +205,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B493AF1240C1F4B006F123B /* OneLineTextField.swift in Sources */,
-				5B493AEF240C1A87006F123B /* SignUpViewController.swift in Sources */,
+				5B493AEF240C1A87006F123B /* SignUpVC.swift in Sources */,
 				5B068038240B65FA00E68B9D /* UIImageView+Ext.swift in Sources */,
 				5BAF17A1240B78CE00CE5E08 /* StackView+Ext.swift in Sources */,
-				5B068020240B3E1200E68B9D /* AuthViewController.swift in Sources */,
+				5B068020240B3E1200E68B9D /* AuthVC.swift in Sources */,
 				5B06801C240B3E1200E68B9D /* AppDelegate.swift in Sources */,
 				5BAF179F240B745B00CE5E08 /* ButtonFormView.swift in Sources */,
 				5B06801E240B3E1200E68B9D /* SceneDelegate.swift in Sources */,
 				5B068034240B621700E68B9D /* UIColor+Ext.swift in Sources */,
 				5B068030240B5E8600E68B9D /* UIButton+Ext.swift in Sources */,
 				5B068032240B60CA00E68B9D /* UIFont+Ext.swift in Sources */,
-				5B493AF3240C5FB4006F123B /* LoginViewController.swift in Sources */,
+				5B493AF3240C5FB4006F123B /* LoginVC.swift in Sources */,
 				5B068036240B64F600E68B9D /* UILabel+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

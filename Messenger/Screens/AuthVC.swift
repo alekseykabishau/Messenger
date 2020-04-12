@@ -1,5 +1,5 @@
 //
-//  AuthViewController.swift
+//  AuthVC.swift
 //  Messenger
 //
 //  Created by Aleksey on 0229..20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AuthViewController: UIViewController {
+class AuthVC: UIViewController {
     
     let logoImageView = UIImageView(image: #imageLiteral(resourceName: "Logo"), contentMode: .scaleAspectFit)
     
@@ -24,6 +24,7 @@ class AuthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+		googleButton.customizeGoogleButton()
         view.backgroundColor = .white
         setupConstraints()
     }
