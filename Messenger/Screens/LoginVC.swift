@@ -11,17 +11,21 @@ import UIKit
 class LoginVC: UIViewController {
 
     let welcomeLabel = UILabel(text: "Welcome back!", font: UIFont.avenir26())
+	
     let loginWithLabel = UILabel(text: "Login with")
+	//let googleButton = UIButton(title: "Google", titleColor: .black, backgroundColor: .white, font: .avenir20(), isShadow: true, cornerRadius: 4)
+	let googleButton = GoogleButton(title: "Google", titleColor: Color.black, backgroundColor: Color.white)
+	
     let orLabel = UILabel(text: "or")
     let emailLabel = UILabel(text: "Email")
+	let emailTextField = OneLineTextField(textFieldFont: UIFont.avenir20())
+	
     let passwordLabel = UILabel(text: "Password")
+	let passwordTextField = OneLineTextField(textFieldFont: UIFont.avenir20())
+	
+	let loginButton = MButton(title: "Login", titleColor: Color.white, backgroundColor: Color.black)
+	
     let needAnAccountLabel = UILabel(text: "Need an account?")
-    
-    let googleButton = UIButton(title: "Google", titleColor: .black, backgroundColor: .white, font: .avenir20(), isShadow: true, cornerRadius: 4)
-    let emailTextField = OneLineTextField(textFieldFont: UIFont.avenir20())
-    let passwordTextField = OneLineTextField(textFieldFont: UIFont.avenir20())
-    let loginButton = UIButton(title: "Login", titleColor: .white, backgroundColor: .buttonDark(), font: .avenir20(), isShadow: false, cornerRadius: 4)
-    
     let signUpButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Sign Up", for: .normal)
@@ -35,9 +39,10 @@ class LoginVC: UIViewController {
         super.viewDidLoad()
 		view.backgroundColor = .systemBackground
         setupConstraints()
-		googleButton.customizeGoogleButton()
+		//googleButton.customizeGoogleButton()
     }
     
+	
     private func setupConstraints() {
         
         let loginWithView = ButtonFormView(label: loginWithLabel, button: googleButton)

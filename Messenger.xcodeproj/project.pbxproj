@@ -12,7 +12,6 @@
 		5B068020240B3E1200E68B9D /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06801F240B3E1200E68B9D /* AuthVC.swift */; };
 		5B068025240B3E1500E68B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B068024240B3E1500E68B9D /* Assets.xcassets */; };
 		5B068028240B3E1500E68B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B068026240B3E1500E68B9D /* LaunchScreen.storyboard */; };
-		5B068030240B5E8600E68B9D /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06802F240B5E8600E68B9D /* UIButton+Ext.swift */; };
 		5B068032240B60CA00E68B9D /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B068031240B60CA00E68B9D /* UIFont+Ext.swift */; };
 		5B068034240B621700E68B9D /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B068033240B621700E68B9D /* UIColor+Ext.swift */; };
 		5B068036240B64F600E68B9D /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B068035240B64F600E68B9D /* UILabel+Ext.swift */; };
@@ -20,6 +19,9 @@
 		5B197B8C2442B52000B1859A /* SetupProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B197B8B2442B52000B1859A /* SetupProfileVC.swift */; };
 		5B197B902442B69200B1859A /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B197B8F2442B69200B1859A /* AddPhotoView.swift */; };
 		5B197B922442C3EC00B1859A /* UISegmentedControl+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B197B912442C3EC00B1859A /* UISegmentedControl+Ext.swift */; };
+		5B197B982442C9C100B1859A /* MButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B197B972442C9C100B1859A /* MButton.swift */; };
+		5B197B9B2442D28700B1859A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B197B9A2442D28700B1859A /* Constants.swift */; };
+		5B197B9D2442D83F00B1859A /* GoogleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B197B9C2442D83F00B1859A /* GoogleButton.swift */; };
 		5B493AEF240C1A87006F123B /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B493AEE240C1A87006F123B /* SignUpVC.swift */; };
 		5B493AF1240C1F4B006F123B /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B493AF0240C1F4B006F123B /* OneLineTextField.swift */; };
 		5B493AF3240C5FB4006F123B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B493AF2240C5FB4006F123B /* LoginVC.swift */; };
@@ -35,7 +37,6 @@
 		5B068024240B3E1500E68B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B068027240B3E1500E68B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B068029240B3E1500E68B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B06802F240B5E8600E68B9D /* UIButton+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
 		5B068031240B60CA00E68B9D /* UIFont+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
 		5B068033240B621700E68B9D /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		5B068035240B64F600E68B9D /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
@@ -43,6 +44,9 @@
 		5B197B8B2442B52000B1859A /* SetupProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileVC.swift; sourceTree = "<group>"; };
 		5B197B8F2442B69200B1859A /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
 		5B197B912442C3EC00B1859A /* UISegmentedControl+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Ext.swift"; sourceTree = "<group>"; };
+		5B197B972442C9C100B1859A /* MButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MButton.swift; sourceTree = "<group>"; };
+		5B197B9A2442D28700B1859A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5B197B9C2442D83F00B1859A /* GoogleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButton.swift; sourceTree = "<group>"; };
 		5B493AEE240C1A87006F123B /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		5B493AF0240C1F4B006F123B /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
 		5B493AF2240C5FB4006F123B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -80,6 +84,7 @@
 		5B06801A240B3E1200E68B9D /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				5B197B992442D26200B1859A /* Utilities */,
 				5B197B8A2442B1A600B1859A /* Model */,
 				5B197B892442B18800B1859A /* Screens */,
 				5B197B8D2442B63800B1859A /* Custom Views */,
@@ -92,7 +97,6 @@
 		5B068039240B729E00E68B9D /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				5B06802F240B5E8600E68B9D /* UIButton+Ext.swift */,
 				5B068035240B64F600E68B9D /* UILabel+Ext.swift */,
 				5B068037240B65FA00E68B9D /* UIImageView+Ext.swift */,
 				5B068031240B60CA00E68B9D /* UIFont+Ext.swift */,
@@ -147,6 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				5B197B8E2442B65000B1859A /* Views */,
+				5B197B962442C96100B1859A /* TextFields */,
+				5B197B952442C94600B1859A /* Buttons */,
+				5B197B942442C92A00B1859A /* Labels */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -157,6 +164,37 @@
 				5B197B8F2442B69200B1859A /* AddPhotoView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		5B197B942442C92A00B1859A /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		5B197B952442C94600B1859A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5B197B972442C9C100B1859A /* MButton.swift */,
+				5B197B9C2442D83F00B1859A /* GoogleButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		5B197B962442C96100B1859A /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		5B197B992442D26200B1859A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5B197B9A2442D28700B1859A /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,15 +274,17 @@
 				5BAF17A1240B78CE00CE5E08 /* StackView+Ext.swift in Sources */,
 				5B068020240B3E1200E68B9D /* AuthVC.swift in Sources */,
 				5B06801C240B3E1200E68B9D /* AppDelegate.swift in Sources */,
+				5B197B9D2442D83F00B1859A /* GoogleButton.swift in Sources */,
 				5B197B902442B69200B1859A /* AddPhotoView.swift in Sources */,
 				5BAF179F240B745B00CE5E08 /* ButtonFormView.swift in Sources */,
 				5B06801E240B3E1200E68B9D /* SceneDelegate.swift in Sources */,
 				5B068034240B621700E68B9D /* UIColor+Ext.swift in Sources */,
-				5B068030240B5E8600E68B9D /* UIButton+Ext.swift in Sources */,
+				5B197B982442C9C100B1859A /* MButton.swift in Sources */,
 				5B068032240B60CA00E68B9D /* UIFont+Ext.swift in Sources */,
 				5B493AF3240C5FB4006F123B /* LoginVC.swift in Sources */,
 				5B197B922442C3EC00B1859A /* UISegmentedControl+Ext.swift in Sources */,
 				5B068036240B64F600E68B9D /* UILabel+Ext.swift in Sources */,
+				5B197B9B2442D28700B1859A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,25 +11,27 @@ import UIKit
 class AuthVC: UIViewController {
     
     let logoImageView = UIImageView(image: #imageLiteral(resourceName: "Logo"), contentMode: .scaleAspectFit)
-    
+	
     let googleLabel = UILabel(text: "Get started with")
+	let googleButton = GoogleButton(title: "Google", titleColor: Color.black, backgroundColor: Color.white)
+	
     let emailLabel = UILabel(text: "Or sign up with")
-    let alreadyOnboardLabel = UILabel(text: "Already onboard?")
+	let emailButton = MButton(title: "Email", titleColor: Color.white, backgroundColor: Color.black)
+	
+    let alreadyOnboardLabel = UILabel(text: "Already have an account?")
+	let loginButton = MButton(title: "Login", titleColor: Color.red, backgroundColor: Color.white)
     
-    // can add default font and corner radius to convenient init to clean the code
-    let googleButton = UIButton(title: "Google", titleColor: .black, backgroundColor: .white, font: .avenir20(), isShadow: true, cornerRadius: 4)
-    let emailButton = UIButton(title: "Email", titleColor: .white, backgroundColor: .buttonDark(), font: .avenir20(), isShadow: false, cornerRadius: 4)
-    let loginButton = UIButton(title: "Login", titleColor: .buttonRed(), backgroundColor: .white, font: .avenir20(), isShadow: true, cornerRadius: 4)
-    
+	
     override func viewDidLoad() {
         super.viewDidLoad()
         
-		googleButton.customizeGoogleButton()
-        view.backgroundColor = .white
+		view.backgroundColor = Color.background
         setupConstraints()
     }
     
+	
     private func setupConstraints() {
+		
         view.addSubview(logoImageView)
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
         
